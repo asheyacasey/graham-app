@@ -17,19 +17,19 @@ export const PlusIcon = (props: SvgProps) => (
       height="43"
       rx="21.5"
       stroke="black"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <path
       d="M14.25 22.5H30.75"
       stroke="black"
-      stroke-width="4"
-      stroke-linecap="round"
+      strokeWidth="4"
+      strokeLinecap="round"
     />
     <path
       d="M22.5 14.25L22.5 30.75"
       stroke="black"
-      stroke-width="4"
-      stroke-linecap="round"
+      strokeWidth="4"
+      strokeLinecap="round"
     />
   </svg>
 );
