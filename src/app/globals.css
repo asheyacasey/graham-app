@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-react-select .react-select__control {
+  @apply h-12 shadow-none rounded-10px text-sm focus:outline-none focus:ring-0 w-full border border-brand_gray-500 focus:border-brand_blue-500 outline-none font-Roboto text-brand_gray-400 placeholder:text-brand_gray-100;
+}
+
+
+
+.slick-list {
+  margin: 0 -5px;
+}
+
+.slick-slide > div {
+  padding: 0 5px;
+}
+
+.react-select-container .react-select__control {
+  @apply h-12 shadow-none text-sm outline-none border-none bg-brand_white-500 focus:outline-none;
+}
+
+.react-cat-select .react-select-prefix__control {
+  @apply h-10 shadow-none text-sm outline-none border-none bg-black focus:outline-none rounded-10px;
+}
+
+.react-stock-select .react-select-stock__control {
+  @apply h-6 shadow-none text-sm outline-none border-none focus:outline-none rounded-10px;
+}
+
+.react-cat-select .react-select-prefix__input input {
+  color: wheat;
+}
+
+.react-notification-select .react-select-notification__control {
+  @apply h-12 shadow-none text-sm hover:border-brand_blue-500 outline-none border-[1.5px] border-brand_blue-500 focus:outline-none rounded-10px;
+}
+
+.multi-range-slider .bar-inner {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.multi-range-slider .thumb::before {
+  box-shadow: none !important;
+  border: 2px solid black !important;
+}
+
+.multi-range-slider .labels {
+  display: none !important;
+}
+
+.slick-list {
+  margin: 0 -5px;
+}
+.slick-slide > div {
+  padding: 0 5px;
+}
+.react-select-container .react-select__control {
+  @apply h-12 shadow-none text-sm  outline-none border-none bg-brand_white-500 focus:outline-none;
+}
+.react-select-container .react-select__menu {
+  @apply !z-30;
+}
+.react-cat-select .react-select-prefix__control {
+  @apply h-10 shadow-none text-sm  outline-none border-none bg-black focus:outline-none rounded-lg;
+}
+.react-stock-select .react-select-stock__control {
+  @apply h-6 shadow-none text-sm  outline-none border-none focus:outline-none rounded-lg;
+}
+.react-cat-select .react-select-prefix__input input {
+  color: wheat;
+}
+.react-notification-select .react-select-notification__control {
+  @apply h-12 shadow-none text-sm hover:border-brand_blue-500 outline-none border-[1.5px] border-brand_blue-500 focus:outline-none rounded-lg;
+}
+.multi-range-slider .bar-inner {
+  box-shadow: none !important;
+  border: none !important;
+}
+.multi-range-slider .thumb::before {
+  box-shadow: none !important;
+  border: 2px solid black !important;
+}
+.multi-range-slider .labels {
+  display: none !important;
+}
+/* resolve the width issue for vertical slider */
+.vertical-slider * {
+  width: 100% !important;
+}
+/* resolve the width issue for vertical slider */
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+body > .skiptranslate {
+  display: none;
+}
+#google_translate_element {
+  top: 0 !important;
+}
+/* filter slider */
+.filter-slider{
+  width: 100%;
+  height: 10px;
+  background-color: yellow;
+  border-radius:10px;
+}
+.filter-slider .thumb{
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  top:-5px
+}
+/* filter slider */
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  display: none !important;
+}
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
