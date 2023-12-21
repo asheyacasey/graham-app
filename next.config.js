@@ -7,6 +7,9 @@ const nextConfig = {
                 hostname: 'res.cloudinary.com'
             },
         ],
+        loader: 'akamai',
+        path: '',
+        unoptimized: true,
     },
     experimental: {
         esmExternals: false
